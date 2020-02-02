@@ -1,0 +1,25 @@
+import NIM
+import Forca
+import Adivinhacao
+
+print ("**********************************")
+print ("****Bem Vindo ao Menu de Jogos****")
+print ("**********************************", end ='\n\n')
+
+
+print("Para jogar o Jogo da Forca Digite (1)")
+print("Para jogar o Jogo  NIM Digite (2)")
+print("Para jogar o Jogo Adivinhação de numero (3)")
+
+escolha = int(input("Faça sua escolha: "))
+print()
+
+if(escolha==1):
+    print('Você escolheu o jogo da Forca !', end='\n\n')
+    Forca.jogar()
+elif(escolha==2):
+    print('Você escolheu o jogo NIM !', end='\n\n')
+    NIM.jogar()
+elif(escolha==3):
+    print('Você escolheu o jogo Adivinhação de numero !', end='\n\n')
+    Adivinhacao.jogar()
