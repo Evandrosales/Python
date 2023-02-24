@@ -1,7 +1,7 @@
+"""
 Um jogo de adivinhação é um jogo onde o objetivo é adivinhar algum tipo de informação, 
 como uma palavra, uma frase, um título ou a localização de um objeto, neste caso números.
-
-
+"""
 
 
 import random
