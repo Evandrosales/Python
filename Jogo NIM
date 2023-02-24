@@ -1,12 +1,11 @@
+"""
 O Nim é um jogo que foi originado na antiga China para dois jogadores. Foi o primeiro jogo a ser estudado matematicamente.
 Começa-se por espalhar várias peças em montes. Cada jogada consiste em retirar algumas peças. Perde o jogador que retirar a última peça.
 
 Os números de peças podem variar, sendo a distribuição mais comum constituida por 23 peças em que cada jogador poderá tirar 1,2 ou 3 peças.
 
 O jogo foi construido para favorecer o computador.
-
-
-
+"""
 
 def jogar():
     def computador_escolhe_jogada(n, m):
